@@ -7,6 +7,12 @@ import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
+import QRCodeGenerator from "./components/qr-code-generator";
+import RandomColor from "./components/random-color";
+import ScrollIndicator from "./components/scroll-indicator";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
+import StarRating from "./components/star-rating";
 
 
 
@@ -21,6 +27,12 @@ function App() {
       <ImageSlider />
       <LightDarkMode />
       <LoadMoreData />
+      <QRCodeGenerator />
+      <RandomColor />
+      <ScrollIndicator />
+      <ScrollToTopAndBottom />
+      <SearchAutocomplete />
+      <StarRating />
      
     </div>
   );
