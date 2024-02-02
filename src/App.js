@@ -13,6 +13,8 @@ import ScrollIndicator from "./components/scroll-indicator";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
+import TicTacToe from "./components/tic-tact-toe";
+import TreeView from "./components/tree-view";
 
 
 
@@ -33,6 +35,8 @@ function App() {
       <ScrollToTopAndBottom />
       <SearchAutocomplete />
       <StarRating />
+      <TicTacToe />
+      <TreeView />
      
     </div>
   );
