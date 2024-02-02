@@ -15,6 +15,9 @@ import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
 import TicTacToe from "./components/tic-tact-toe";
 import TreeView from "./components/tree-view";
+import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 
 
 
@@ -37,7 +40,9 @@ function App() {
       <StarRating />
       <TicTacToe />
       <TreeView />
-     
+      <UseFetchHookTest />
+      <UseOnclickOutsideTest />
+      <UseWindowResizeTest />
     </div>
   );
 }
